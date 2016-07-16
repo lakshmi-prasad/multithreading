@@ -2,7 +2,7 @@ package thread_Deadlock;
 
 public class Account {
 
-	private int balance = 1000;
+	private int balance = 10000;
 	
 	public void deposit(int amount) {
 		this.balance += amount;

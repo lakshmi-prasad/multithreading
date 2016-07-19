@@ -6,7 +6,7 @@ public class Connection {
 
 	private static Connection conn = new Connection();
 	private int connections = 0;
-	private Semaphore sem = new Semaphore(10);
+	private Semaphore sem = new Semaphore(10, true);
 	
 	private Connection () {}
 	

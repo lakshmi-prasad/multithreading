@@ -11,6 +11,16 @@ public class Address {
 		this.street = street;
 		this.postcode = postcode;
 	}
+	
+	public void init() {
+		System.out.println("address init!" + this);
+	}
+	
+	
+	public void destroy() {
+		System.out.println("address destroyed!!");
+	}
+	
 	@Override
 	public String toString() {
 		return "Address [street=" + street + ", postcode=" + postcode + "]";

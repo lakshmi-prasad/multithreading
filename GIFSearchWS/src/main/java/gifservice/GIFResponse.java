@@ -4,9 +4,7 @@ public class GIFResponse {
 
 	GIFDataNode [] data; 
 	
-	public GIFResponse(int n) {
-		data = new GIFDataNode[n];
-	}
+	public GIFResponse() {}
 	
 
 	public GIFDataNode[] getData() {

@@ -1,6 +1,6 @@
-main/java/gifservice/Application.class
 main/java/gifservice/GIFResponse.class
 main/java/gifservice/GIFDataNode.class
+main/java/gifservice/GIFSearchApplication.class
 main/java/gifservice/ServiceController.class
-main/java/gifservice/GIFSearch.class
+main/java/gifservice/ErrorResponse.class
 main/java/gifservice/GIFSearchTask.class

@@ -4,6 +4,14 @@ public class GIFDataNode {
 	private String gif_id;
 	private String url;
 
+	public GIFDataNode() {
+	}
+
+	public GIFDataNode(String gif_id, String url) {
+		this.gif_id = gif_id;
+		this.url = url;
+	}
+
 	public String getGif_id() {
 		return gif_id;
 	}
@@ -20,12 +28,7 @@ public class GIFDataNode {
 		this.url = url;
 	}
 
-	public GIFDataNode(String gif_id, String url) {
-		this.gif_id = gif_id;
-		this.url = url;
-	}
-	
 	public String toString() {
-		return "[id: " + this.gif_id + ", url: " + this.url + "]"; 
+		return "[id: " + this.gif_id + ", url: " + this.url + "]";
 	}
 }
